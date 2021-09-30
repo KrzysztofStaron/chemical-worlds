@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="main.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Chemical words</title>
+  </head>
+  <body>
+    <div id="container">
+      <h3>This is very glithy</h2>
+      <div id="content">
+        <input type="text" class="chem" id="input" maxlength="12" spellcheck="false" value="wow"
+          onkeydown="this.value = this.value.toUpperCase();"
+          onkeyup="this.value = this.value.toUpperCase()"
+          pattern='[A-Za-z\\s]*'>
+        <br>
+
+        <button type="button" name="button" class="chem" id="convertButton">Convert</button><br><br>
+        <div id="output">1</div><br><br>
+        <div id="output2">2</div>
+      </div>
+    </div>
+  </body>
+</html>

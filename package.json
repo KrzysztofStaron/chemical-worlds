@@ -1,0 +1,15 @@
+{
+  "name": "chemical-worlds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Krzysztof Staroń",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^15.0.0",
+  }
+}

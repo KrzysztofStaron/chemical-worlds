@@ -1,0 +1,59 @@
+body {
+  background-color: #333;
+  text-align: center;
+}
+
+#container{
+  margin-left: 64px;
+  margin-top: 64px;
+  width: 384px;
+  height: 384px;
+  background-color: #888;
+  border: 4px inset black;
+  border-radius: 5%;
+  -webkit-box-shadow: -7px 5px 5px 4px rgba(0,0,0,0.5);
+  box-shadow: -7px 5px 5px 4px rgba(0,0,0,0.5);
+}
+
+/*256 x 256*/
+input.chem{
+  all: unset;
+  width: 300px;
+  font-weight: 1000;
+  margin-top: 30px;
+  border-bottom: 3px solid #333;
+  font-size: 30px;
+}
+
+input.chem:focus{
+  all: unset;
+  width: 300px;
+  font-weight: 1000;
+  margin-top: 30px;
+  border-bottom: 3px solid #000;
+  font-size: 30px;
+}
+
+input.chem:hover{
+  cursor: pointer;
+}
+
+button.chem{
+  margin-top: 20px;
+  width: 300px;
+  height: 100px;
+  font-size: 50px;
+  font-weight: 1000;
+  background-color: #aaa;
+  border: 2px solid black;
+}
+
+button.chem:hover{
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+button.chem:active{
+  position: relative;
+  top: 2px;
+}
